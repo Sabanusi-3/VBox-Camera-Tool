@@ -1,0 +1,43 @@
+# Build output
+build/
+build_*/
+out/
+bin/
+obj/
+Debug/
+Release/
+RelWithDebInfo/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+*.VC.VC.opendb
+*.VC.db-shm
+*.VC.db-wal
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# Generated binaries / debug files
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.obj
+
+# Local SDK/dependency directories
+VirtualBoxSDK/
+deps/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
